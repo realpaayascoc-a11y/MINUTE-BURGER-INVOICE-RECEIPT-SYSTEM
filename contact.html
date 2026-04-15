@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <body>
+            <section id="contact" class="contact-section">
+        <ul class="logo"><h2>Contact Us</h2></ul>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <h3>📍 Visit Us</h3>
+                <p>Paglaum, Barangay Camaman-an<br>Cagayan de Oro City,</p>
+                <h3>📞 Call Us</h3>
+                <p>09526009785 /
+                    muariffbasa0@gmail.com
+                </p>
+                <h3>🕒 Hours</h3>
+                <p>Mon-Sun: 8AM - 10PM</p>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Adress" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Contact Info">
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" placeholder="Your Order"></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <ul class="home-return">
+        <li>
+            <a href="home.html">Home</a>
+        </li>
+    </ul>
+
+    <style>
+        .contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.contact-info {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.contact-info h3 {
+    margin-bottom: 1rem;
+    color: #ff6b35;
+}
+
+.contact-form {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #ff6b35;
+}
+
+/* FOOTER */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+body {
+    background-color: gold;
+}
+
+.home-return{
+    text-align: center;
+        list-style: none;
+        font-size: 1.2rem;
+}
+
+.logo {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+    </style>
+    </body>
+</html>
